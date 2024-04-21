@@ -1,0 +1,8 @@
+[
+    {
+        "operation": "pdfproperties",
+        "parameters": {
+            "pageLevel": "true"
+        }
+    }
+]

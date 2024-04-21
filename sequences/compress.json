@@ -1,0 +1,8 @@
+[
+    {
+        "operation": "compresspdf",
+        "parameters": {
+            "compressionLevel": "HIGH"
+        }
+    }
+]

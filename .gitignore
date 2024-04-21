@@ -1,0 +1,6 @@
+# My Files and Folders
+~in/
+~out/
+node_modules/
+.DS_Store
+.env

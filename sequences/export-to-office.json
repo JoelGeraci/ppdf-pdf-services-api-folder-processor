@@ -1,0 +1,9 @@
+[
+    {
+        "operation": "exportpdf",
+        "parameters": {
+            "targetFormat": "docx",
+            "ocrLang": "en-US"
+        }
+    }
+]
