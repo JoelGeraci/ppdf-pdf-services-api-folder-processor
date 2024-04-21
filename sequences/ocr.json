@@ -1,0 +1,9 @@
+[
+    {
+        "operation": "ocr",
+        "parameters": {
+            "ocrLang": "en-US",
+            "ocrType": "searchable_image"
+        }
+    }
+]

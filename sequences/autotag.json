@@ -1,0 +1,9 @@
+[
+    {
+        "operation": "autotag",
+        "parameters": {
+            "shiftHeadings": false,
+            "generateReport": true
+        }
+    }
+]

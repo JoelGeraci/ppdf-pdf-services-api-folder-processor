@@ -1,0 +1,4 @@
+{
+    "allFormats": ["bmp", "doc",  "docx", "gif", "jpeg", "jpg", "png", "ppt",  "pptx", "rtf", "tif",  "tiff", "txt", "xls",  "xlsx"],
+    "fontCheck": ["docx", "pptx", "xlsx"]
+}

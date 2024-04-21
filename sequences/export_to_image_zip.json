@@ -1,0 +1,9 @@
+[
+    {
+        "operation": "pdftoimages",
+        "parameters": {
+            "targetFormat": "png",
+            "outputType": "zipOfPageImages"
+        }
+    }
+]
