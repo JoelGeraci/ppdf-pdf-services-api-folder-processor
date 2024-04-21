@@ -1,0 +1,31 @@
+[
+    {
+        "operation": "createpdf",
+        "parameters": {
+            "documentLanguage": "en-US"
+        }
+    },
+    {
+        "operation": "compresspdf",
+        "parameters": {
+            "compressionLevel": "HIGH"
+        }
+    },
+    {
+        "operation": "linearizepdf"
+    },
+    {
+        "operation": "protectpdf",
+        "parameters": {
+            "passwordProtection": {
+                "ownerPassword": "1234567890"
+            },
+            "encryptionAlgorithm": "AES_256",
+            "contentToEncrypt": "ALL_CONTENT",
+            "permissions": [
+                "PRINT_LOW_QUALITY",
+                "EDIT_ANNOTATIONS"
+            ]
+        }
+    }
+]

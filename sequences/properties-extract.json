@@ -1,0 +1,24 @@
+[
+    {
+        "operation": "pdfproperties",
+        "parameters": {
+            "pageLevel": "true"
+        }
+    },
+    {
+        "operation": "extractpdf",
+        "parameters": {
+            "getCharBounds": false,
+            "includeStyling": true,
+            "elementsToExtract": [
+                "text",
+                "tables"
+            ],
+            "tableOutputFormat": "xlsx",
+            "renditionsToExtract": [
+                "tables",
+                "figures"
+            ]
+        }
+    }
+]

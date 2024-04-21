@@ -1,0 +1,18 @@
+[
+    {
+        "operation": "extractpdf",
+        "parameters": {
+            "getCharBounds": false,
+            "includeStyling": false,
+            "elementsToExtract": [
+                "text",
+                "tables"
+            ],
+            "tableOutputFormat": "csv",
+            "renditionsToExtract": [
+                "tables",
+                "figures"
+            ]
+        }
+    }
+]

@@ -1,0 +1,19 @@
+[
+    {
+        "operation": "extractpdf",
+        "parameters": {
+            "getCharBounds": false,
+            "includeStyling": false,
+            "tableOutputFormat": "xlsx",
+            "elementsToExtract": [
+                "text",
+                "tables"
+            ],
+            "renditionsToExtract": [
+                "tables",
+                "figures"
+            ],
+            "includeHeaderFooter": false
+        }
+    }
+]

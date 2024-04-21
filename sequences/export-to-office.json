@@ -1,0 +1,8 @@
+[
+    {
+        "operation": "exportpdf",
+        "parameters": {
+            "targetFormat": "xlsx"
+        }
+    }
+]

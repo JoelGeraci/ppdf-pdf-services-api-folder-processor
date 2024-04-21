@@ -1,0 +1,8 @@
+[
+    {
+        "operation": "htmltopdf",
+        "parameters": {
+            "includeHeaderFooter": false
+        }
+    }
+]

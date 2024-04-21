@@ -1,0 +1,25 @@
+[
+    {
+        "operation": "extractpdf",
+        "parameters": {
+            "getCharBounds": false,
+            "includeStyling": true,
+            "elementsToExtract": [
+                "text",
+                "tables"
+            ],
+            "tableOutputFormat": "xlsx",
+            "renditionsToExtract": [
+                "tables",
+                "figures"
+            ]
+        }
+    },
+    {
+        "operation": "pdftoimages",
+        "parameters": {
+            "targetFormat": "png",
+            "outputType": "listOfPageImages"
+        }
+    }
+]

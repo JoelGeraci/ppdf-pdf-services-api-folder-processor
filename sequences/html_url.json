@@ -1,0 +1,9 @@
+[
+    {
+        "operation": "htmltopdf",
+        "parameters": {
+            "includeHeaderFooter": false,
+            "inputUrl": "https://pdf-health-check-2-fqmze.ondigitalocean.app/report/"
+        }
+    }
+]

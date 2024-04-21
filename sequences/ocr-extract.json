@@ -1,0 +1,20 @@
+[
+    {
+        "operation": "ocr"
+    },
+    {
+        "operation": "extractpdf",
+        "parameters": {
+            "getCharBounds": false,
+            "includeStyling": false,
+            "elementsToExtract": [
+                "text",
+                "tables"
+            ],
+            "renditionsToExtract": [
+                "tables",
+                "figures"
+            ]
+        }
+    }
+]
