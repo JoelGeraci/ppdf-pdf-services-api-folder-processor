@@ -3,7 +3,7 @@
         "operation": "extractpdf",
         "parameters": {
             "getCharBounds": false,
-            "includeStyling": false,
+            "includeStyling": true,
             "tableOutputFormat": "xlsx",
             "elementsToExtract": [
                 "text",

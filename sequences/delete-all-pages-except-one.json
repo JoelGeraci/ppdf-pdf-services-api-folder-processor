@@ -1,0 +1,18 @@
+[
+    {
+        "operation": "pagemanipulation",
+        "parameters": {
+            "pageActions": [
+                {
+                    "delete": {
+                        "pageRanges": [
+                            {
+                                "start": 2
+                            }
+                        ]
+                    }
+                }
+            ]
+        }
+    }
+]

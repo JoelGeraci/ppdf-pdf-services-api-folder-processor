@@ -23,10 +23,25 @@ node sequencer.js INPUT_FOLDER OUTPUT_FOLDER SEQUENCE_FILENAME [moveCompletedToO
 #### Examples
 ``
 node sequencer.js "files/input" "files/output" sequences/create-from-office.json moveCompletedToOutput=true
+
+node sequencer.js "files/input" "files/output" sequences/autotag.json
+
+node sequencer.js "files/input" "files/output" sequences/accessibilitychecker.json
+
+node sequencer.js "files/input/AcrobatJavaScriptCalendar.pdf" "files/output" sequences/properties.json
+
+node sequencer.js "files/input" "files/output" "sequences/delete-all-pages-except-one.json"
+
+node sequencer.js "files/input" "files/output" "sequences/extract-everything.json"
+
+
+
+
+
+
 ``
 
 ``
-node sequencer.js "files/input" "files/output" sequences/create-compress-linearize-protect.json moveCompletedToOutput=true
 ``
 
 ## Sequence Files

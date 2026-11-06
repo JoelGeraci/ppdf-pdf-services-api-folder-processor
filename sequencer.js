@@ -20,8 +20,8 @@ const CLIENT_SECRET = process.env.CLIENT_SECRET;
 const POLLING_DELAY = 1000;
 
 const REST_API = "https://pdf-services-ue1.adobe.io/";
-const UNSUPPORTED_OPERATIONS = ["splitpdf", "documentgeneration", "electronicseal", "combinepdf", "pagemanipulation"];
-const ZERO_PAD_LENGTH = 5
+const UNSUPPORTED_OPERATIONS = ["splitpdf", "documentgeneration", "electronicseal", "combinepdf"];
+const ZERO_PAD_LENGTH = 5;
 
 let additionalParameters = {};
 
@@ -467,7 +467,6 @@ async function main() {
 
 let config = loadConfig();
 let createPdfSupportedFormats = getCreatePdfSupportedFormats();
-//console.log("❗️ : createPdfSupportedFormats:", JSON.stringify(createPdfSupportedFormats, null, 4))
 let accessToken;
 main();
 
