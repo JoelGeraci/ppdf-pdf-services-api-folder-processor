@@ -303,6 +303,7 @@ function isSequenceSupported(sequence) {
     if (Array.isArray(sequence)) {
         for (let i = 0; i < sequence.length; i++) {
             let operation = sequence[i];
+            console.log(`❗️​: isSequenceSupported -> operation`, operation);
             if (UNSUPPORTED_OPERATIONS.includes(operation.operation)) {
                 console.log(`❗️ : An Unsupported Operation "${operation.operation}" is being used in this sequence.`);
                 process.exit();

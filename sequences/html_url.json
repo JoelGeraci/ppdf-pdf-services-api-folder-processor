@@ -3,7 +3,7 @@
         "operation": "htmltopdf",
         "parameters": {
             "includeHeaderFooter": false,
-            "inputUrl": "https://pdf-health-check-2-fqmze.ondigitalocean.app/report/"
+            "inputUrl": "https://www.nytimes.com/live/2026/11/06/business/jobs-report-stocks-market-economy"
         }
     }
 ]
